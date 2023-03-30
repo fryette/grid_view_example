@@ -1,0 +1,16 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    type_annotate_public_apis: false
+    close_sinks: false
+    avoid_print: false
+    public_member_api_docs: false
+    use_key_in_widget_constructors: false
+    diagnostic_describe_all_properties: false
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+  plugins:
+    - custom_lint
